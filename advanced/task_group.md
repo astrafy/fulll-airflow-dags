@@ -1,6 +1,7 @@
 # Grouping Tasks with TaskGroup in Airflow
 
-Airflow's TaskGroup is a feature that allows you to organize multiple tasks into a group, making your DAGs more structured and visually simplified. TaskGroups help in managing execution dependencies and relationships within a DAG.
+Airflow's TaskGroup is a feature that allows you to organize multiple tasks into a group, making your DAGs more 
+structured and visually simplified. TaskGroups help in managing execution dependencies and relationships within a DAG.
 
 ## Benefits of Using TaskGroup
 

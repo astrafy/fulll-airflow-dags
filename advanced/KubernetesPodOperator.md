@@ -30,4 +30,5 @@ with DAG(
     )
 ```
 
-This DAG defines a task that runs a simple Python script inside a Kubernetes pod, demonstrating how to integrate containerized tasks into your Airflow workflows.
+This DAG defines a task that runs a simple Python script inside a Kubernetes pod, demonstrating how to integrate 
+containerized tasks into your Airflow workflows.

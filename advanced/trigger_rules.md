@@ -38,4 +38,5 @@ with DAG(
     start >> one_failed
 ```
 
-Understanding these trigger rules can significantly enhance your ability to design complex workflows that react dynamically to different conditions.
+Understanding these trigger rules can significantly enhance your ability to design complex workflows that react 
+dynamically to different conditions.
