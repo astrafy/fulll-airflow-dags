@@ -1,5 +1,5 @@
 # Exercises
-&nbsp;
+
 ## Day 1
 <details>
   <summary><strong> Morning session</strong></summary>
