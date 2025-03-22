@@ -3,8 +3,8 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime
 
 # Define the Python function
-def hello_spain():
-    print("Hello, Spain!")
+def hello_italy():
+    print("Hello, italy!")
 
 # Default arguments for the DAG
 default_args = {
@@ -15,16 +15,16 @@ default_args = {
 
 # Define the DAG
 dag = DAG(
-    'hello_spain_dag',
+    'hello_italy_dag',
     default_args=default_args,
-    description='A simple Hello Spain DAG',
+    description='A simple Hello italy DAG',
     schedule_interval=None,  # Runs only once (manual trigger)
 )
 
 # Define the task using the PythonOperator
 hello_task = PythonOperator(
-    task_id='hello_spain_task',
-    python_callable=hello_spain,
+    task_id='hello_italy_task',
+    python_callable=hello_italy,
     dag=dag,
 )
 
