@@ -19,6 +19,7 @@ dag = DAG(
     default_args=default_args,
     description='A simple Hello france DAG',
     schedule_interval=None,  # Runs only once (manual trigger)
+    tags=["customer", "fulll"]
 )
 
 # Define the task using the PythonOperator
